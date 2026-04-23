@@ -1,31 +1,15 @@
 # Smart Campus API
 
-A RESTful API for managing university campus rooms and sensors, built with Java and JAX-RS (Jersey) with an embedded Grizzly HTTP server.
+A Restful API for managing university campus rooms and sensors, built with Java and JAX-RS (Jersey) with an embedded Grizzly HTTP server.
 
 ## API Overview
 
 The API manages three core resources:
 - **Rooms** - Physical campus rooms with capacity info
-- **Sensors** - Devices deployed in rooms (temperature, CO2, occupancy etc.)
+- **Sensors** - Devices deployed in rooms such as temperature
 - **Sensor Readings** - Historical data logged by each sensor
 
 Base URL: `http://localhost:8080/api/v1`
-
----
-
-## How to Build and Run
-
-### Prerequisites
-- Java 11 or higher
-- Apache Maven
-- Apache NetBeans (recommended) or any IDE
-
-### Steps
-1. Clone the repository:
-2. Open the project in NetBeans via **File → Open Project**
-3. Right-click the project → **Clean and Build**
-4. Right-click the project → **Run**
-5. The server starts at `http://localhost:8080/api/v1`
 
 ---
 
